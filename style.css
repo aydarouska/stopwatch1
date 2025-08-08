@@ -1,0 +1,25 @@
+section {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    /*height: 100vh;*/
+    height: 600px;
+    width: 300px;
+    background-color: #282c34;
+    color: white;
+    font-family: 'Arial', sans-serif;
+    font-size: 48px;
+}
+#display {
+    margin-bottom: 20px;
+    padding: 20px;
+    border: 2px solid white;
+    border-radius: 10px;
+}
+button {
+    font-size: 24px;
+    margin: 5px;
+    padding: 10px 20px;
+    cursor: pointer;
+}
